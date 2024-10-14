@@ -1,0 +1,10 @@
+# Python
+venv/
+.env
+
+# Node
+package-lock.json
+node_modules/
+
+# System
+.DS_Store
