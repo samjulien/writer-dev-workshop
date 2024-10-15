@@ -2,7 +2,7 @@
 
 In this guide, we'll create a simple yet powerful chat assistant using the Writer Framework. This project helps you build an AI-powered chatbot that can engage in conversations on various topics. If you're new to the Writer Framework, don't worry—we'll take it step by step!
 
-![](https://mintlify.s3-us-west-1.amazonaws.com/writer/framework/images/tutorial/chat/chat_assistant_1.png)
+![](images/chat_assistant_1.png)
 
 ## What you will learn
 
@@ -26,7 +26,7 @@ Before starting, ensure you have:
 
 Here's what the final app will look like, including a preview of the UI and chat interface.
 
-![Finished chat assistant project](https://mintlify.s3-us-west-1.amazonaws.com/writer/framework/images/tutorial/chat/chat_assistant_1.png)
+![Finished chat assistant project](images/chat_assistant_1.png)
 
 ## Step 1: Get Writer Framework API key
 
@@ -40,9 +40,9 @@ If you already have an API Key, you can skip this section.
 2. **Select Framework**: Choose **"Framework"** as the app type.
 3. **Get Your API Key**: Under **"Authenticate with an API key"**, click **"Reveal"** to copy your API key.
 
-![](https://mintlify.s3-us-west-1.amazonaws.com/writer/framework/images/tutorial/chat/chat_assistant_2.png)
+![](images/chat_assistant_2.png)
 
-![](https://mintlify.s3-us-west-1.amazonaws.com/writer/framework/images/tutorial/chat/chat_assistant_3.png)
+![](images/chat_assistant_3.png)
 
 (Optional) You can rename your app by clicking on the app name at the top left, making it easier to find and remember.
 
@@ -111,7 +111,7 @@ You'll see a canvas in the center, a component library on the left, and a proper
 
 Your UI should now look similar to this:
 
-![Initial UI with text and chatbot](https://mintlify.s3-us-west-1.amazonaws.com/writer/framework/images/tutorial/chat/chat_assistant_4.png)
+![Initial UI with text and chatbot](images/chat_assistant_4.png)
 
 ## Step 4: Add backend logic
 
@@ -213,12 +213,12 @@ Now, let's connect the UI components we created to the application logic.
 - **Chatbot Component:** Bind to `conversation`
   - **How**: Set "Conversation Object" to `@{conversation}` in the **Component Settings** of the Chatbot.
   - You can also update properties such as the assistant's initials, the user's initials, and whether the chat uses markdown.
-![](https://mintlify.s3-us-west-1.amazonaws.com/writer/framework/images/tutorial/chat/chat_assistant_5.png)
+![](images/chat_assistant_5.png)
 
 - **Chatbot Event Handler:** Bind to `handle_simple_message`
   - **How**: In the **Events** section of the Component Settings, set `wf-chatbot-message` to `handle_simple_message`.
 
-    ![](https://mintlify.s3-us-west-1.amazonaws.com/writer/framework/images/tutorial/chat/chat_assistant_6.png)
+    ![](images/chat_assistant_6.png)
 
 ## Step 6: Run the application
 
@@ -230,7 +230,7 @@ writer run chat-assistant
 
 This will start your application on port 3005. You can access it in your browser at localhost:3005 to test the functionality.
 
-![](https://mintlify.s3-us-west-1.amazonaws.com/writer/framework/images/tutorial/chat/chat_assistant_7.png)
+![](images/chat_assistant_7.png)
 
 ## Step 7: Deploy the application (optional)
 
