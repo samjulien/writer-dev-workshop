@@ -10,7 +10,7 @@ const client = new Writer({
 async function main() {
     try {
       const response = await client.applications.generateContent(
-        "55e691b8-e471-4e85-89d0-b7f320a2d50f",
+        process.env.APPLICATION_ID,
         {
         "inputs": [
           {

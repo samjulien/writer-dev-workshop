@@ -17,7 +17,7 @@ def download_file_from_writer(file_id, filename, client):
         file.write(file_bytes.read())
 
 def main():
-    file_id = "09192073-8024-4a5c-80be-4d287e9e8fd6"
+    file_id = os.getenv("FILE_ID")
     download_file_from_writer(file_id, "Writer-test.png", client)
     print(f"File downloaded with ID: {file_id}")
 
