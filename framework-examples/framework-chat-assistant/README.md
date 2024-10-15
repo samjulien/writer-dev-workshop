@@ -142,7 +142,7 @@ Set the app title and initial state:
 wf.init_state({
     "conversation": writer.ai.Conversation(),
     "my_app": {
-        "title": "CHAT ASSISTANT"
+        "title": "Chat Assistant"
     },
 })
 ```
@@ -189,7 +189,7 @@ wf.api_key = os.getenv('WRITER_API_KEY')
 wf.init_state({
     "conversation": writer.ai.Conversation(),
     "my_app": {
-        "title": "CHAT ASSISTANT"
+        "title": "Chat Assistant"
     },
 })
 
