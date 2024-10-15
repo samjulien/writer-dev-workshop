@@ -1,8 +1,4 @@
 # Writer Developer Workshop Resources
-A collection of resources for developers to learn about Writer.
-
-## Get Started with Writer
-
 Welcome to Writer\! Writer is the full-stack generative AI platform for enterprises. You can quickly and easily build and deploy AI apps using our suite of developer tools, which fully integrate with our LLMs, graph-based Retrieval Augmented Generation (RAG), AI guardrails, and more.
 
 ## What you can do with Writer
@@ -82,6 +78,7 @@ Let’s take a closer look at each option, along with what you can accomplish us
 - See live updates while editing—no need to hit 'Preview'
 
 **Quick start guides**
+In addition to the `framework-examples` folder in this repo, check out the following frameworks:
 
 - Framework quickstart: [https://dev.writer.com/framework/quickstart](https://dev.writer.com/framework/quickstart)  
 - Build a social post generator: [https://dev.writer.com/framework/social-post-generator](https://dev.writer.com/framework/social-post-generator)  

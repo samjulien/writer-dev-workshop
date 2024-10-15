@@ -8,6 +8,7 @@ Before starting, ensure you have:
 
 - A Writer AI Studio account ([sign up for free here](https://app.writer.com/aistudio/signup?utm_campaign=devrel))
 - The Writer Node SDK installed (follow [these instructions](https://dev.writer.com/api-guides/sdks))
+- For examples using no-code applications (such as for the `applications` endpoint), you'll need to create a text generation application and set the `APPLICATION_ID` environment variable to the ID of your application. Follow [this guide](https://dev.writer.com/no-code/building-a-text-generation-app) to learn how to build a text generation application. You can also [check out the applications guide](https://dev.writer.com/api-guides/applications) to learn more about the `applications` endpoint.
 
 ## Examples
 
