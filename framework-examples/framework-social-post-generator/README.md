@@ -1,6 +1,8 @@
 # Framework quickstart: social post generator
 
-In this guide, we'll create a simple yet powerful social media post generator using the Writer Framework. This project helps you generate social media posts and tags automatically based on your input. If you're new to the Writer Framework, don’t worry—we'll take it step by step\!
+In this guide, we'll create a simple yet powerful social media post generator using the Writer Framework. This project helps you generate social media posts and tags automatically based on your input. If you're new to the Writer Framework, don’t worry—we'll take it step by step!
+
+![](images/sp_gen_1.png)
 
 ## What you will learn
 
@@ -24,7 +26,7 @@ Before starting, ensure you have:
 
 Here's what the final app will look like, including a preview of the UI and generated posts.
 
-\[Insert image of finished application here\]
+![](images/sp_gen_1.png)
 
    
 For your convenience, you can find the complete code \[here\]. If you prefer, you can also use the provided ui.json to quickly build the UI. 
@@ -38,7 +40,9 @@ If you already have an API Key, you can skip this section.
 ### Steps to get your API key
 
 1. **Create a New App**: On the Writer home screen, click **"Build an app"**.  
+![](images/sp_gen_2.png)
 2. **Select Framework**: Choose **"Framework"** as the app type.  
+![](images/sp_gen_3.png)
 3. **Get Your API Key**: Under **"Authenticate with an API key"**, click **"Reveal"** to copy your API key.
 
 (Optional) You can rename your app by clicking on the app name at the top left, making it easier to find, and remember.
@@ -167,6 +171,7 @@ You'll see a canvas in the center, a component library on the left, and a proper
 4. **Text:**  
      
    - Finally, drag a Text component from the left sidebar and position it below the Tags component.  
+   ![](images/sp_gen_4.png)
    - This will display the generated posts, so you may want to:  
      - Increase the "Font Size" in Component Settings.  
      - Enable "Allow Markdown" if you want to support formatted text.
@@ -284,14 +289,18 @@ Now, let's connect the UI components we created to the application logic. This s
 
 - **Text Input Component:** Bind to `Topic`   
   - **How**: Set "State\_element" to `@topic` in the **Component Settings** of the Text Input.  
+  ![](images/sp_gen_5.png)
 - **Button Component:** Bind to`handle_button_click`   
   - **How**: Set `wf-click` to `handle_button_click` in the **Component Settings** of the Button.  
+  ![](images/sp_gen_6.png)
 - **Message Component:** Bind to `message`    
   - **How**: Set "Text" to `@{message}`. Set "Visible" to `@{message}`.  
 - **Tags Component:** Bind to `tags`    
   - **How**: Set "JSON" to `@{tags}`.  
+  ![](images/sp_gen_7.png)
 - **Text Component for Posts:**   Bind to `posts`    
   - **How**: Set "Text" to `@{posts}`. Enable "Markdown" option.  
+  ![](images/sp_gen_8.png)
 - **Section for Tags and Posts: Set Visibility**  
   - Ensure the section containing tags and posts is only visible when posts are available.  
   - **How**: Set "Visible" to `@{posts}`.
@@ -303,6 +312,7 @@ To run the app locally, use the following command:
 ```bash
 writer run social-generator
 ```
+![](images/sp_gen_9.png)
 
 This will start your application on port 3005. You can access it in your browser at localhost:3005 to test the functionality.
 
