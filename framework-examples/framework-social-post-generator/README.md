@@ -298,7 +298,16 @@ Now, let's connect the UI components we created to the application logic. This s
 
 ## Step 6: Run the application
 
-To run the app locally, ensure you have the Writer editor open and use your browser to access `localhost:3006` to test the functionality.
+To run the app locally, use the following command:
+
+```bash
+writer run social-generator
+```
+
+This will start your application on port 3005. You can access it in your browser at localhost:3005 to test the functionality.
+
+> [!NOTE] 
+Note that the Writer editor (opened with `writer edit social-generator`) runs on port `3006`, while the actual application runs on port `3005`.
 
 ## Step 7: Deploy the application (optional)
 
